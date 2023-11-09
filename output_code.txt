@@ -1,0 +1,5 @@
+
+
+for _, repo := range oldRepos {
+		metadata, err := api.RepoData(context.Background(), client, repo.Owner, repo.Name)
+}
